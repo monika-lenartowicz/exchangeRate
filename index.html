@@ -22,9 +22,9 @@
 
         <div class="appBody">
 
-            <div class="appBody__left">
-                <input type="number" class="amountOne" value="1">
-                <select id="currency-one">
+            <div class="appBody__section appBody__section--left">
+                <input type="number" class="appBody__input" value="1">
+                <select id="currency-one" class="select">
                     <option value="PLN" selected>PLN</option>
                     <option value="USD">USD</option>
                     <option value="EUR">EUR</option>
@@ -38,9 +38,9 @@
                 <i class="fas fa-retweet"></i>
             </button>
 
-            <div class="appBody__right">
-                <input type="number" class="amountTwo">
-                <select id="currency-two">
+            <div class="appBody__section appBody__section--right">
+                <input type="number" class="appBody__input" disabled>
+                <select id="currency-two" class="select">
                     <option value="PLN">PLN</option>
                     <option value="USD" selected>USD</option>
                     <option value="EUR">EUR</option>
@@ -50,9 +50,7 @@
             </div>
 
         </div>
-        <p class="rateInfo">
-            Informacja
-        </p>
+        <p class="rateInfo"></p>
 
     </div>
 
