@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #29303b;
+}
+
+.wrapper {
+	color: white;
+	padding: 50px;
+	max-width: 800px;
+	background-image: linear-gradient(#3f4b59, #333d46);
+	text-align: center;
+	border: 1px solid #1c232d;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #1c232d;
+}
+
+.header {
+	margin-bottom: 10px;
+	font-size: 36px;
+}
+
+.header__description {
+	font-size: 26px;
+	margin-bottom: 50px;
+	font-weight: 200;
+}
+
+.appBody {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.appBody option {
+	color: #333;
+}
+
+.appBody__section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.appBody__input {
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 60px;
+}
+
+.appBody__input,
+.select {
+	color: white;
+	border: none;
+	background: none;
+	text-align: center;
+}
+
+.select {
+	padding: 10px 20px;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+.appBody__input:focus,
+.select:focus {
+	outline: none;
+	color: rgb(74, 209, 219);
+}
+
+.swap {
+	align-self: flex-end;
+	margin: 5px;
+	padding: 15px;
+	background-image: linear-gradient(45deg, #2578cc, #11e763);
+	color: white;
+	font-size: 20px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.swap:focus {
+	outline: none;
+	background-image: linear-gradient(45deg, #1a5793, #098739);
+}
+
+.rateInfo {
+	font-size: 26px;
+	font-weight: 200;
+}
