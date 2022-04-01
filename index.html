@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5968f5edd.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1 class="header">Exchange Rate App</h1>
+        <p class="header__description">Sprawdź aktualne kursy walut!</p>
+
+        <div class="appBody">
+
+            <div class="appBody__left">
+                <input type="number" class="amountOne" value="1">
+                <select id="currency-one">
+                    <option value="PLN" selected>PLN</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="SEK">SEK</option>
+                </select>
+
+            </div>
+
+            <button class="swap">
+                <i class="fas fa-retweet"></i>
+            </button>
+
+            <div class="appBody__right">
+                <input type="number" class="amountTwo">
+                <select id="currency-two">
+                    <option value="PLN">PLN</option>
+                    <option value="USD" selected>USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="SEK">SEK</option>
+                </select>
+            </div>
+
+        </div>
+        <p class="rateInfo">
+            Informacja
+        </p>
+
+    </div>
+
+</body>
+
+</html>
